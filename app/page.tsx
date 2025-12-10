@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <main className="w-full overflow-hidden bg-white text-gray-900">
+    <main className="w-full overflow-hidden bg-transparent text-[--foreground]">
       <Navbar />
       <Hero />
       <Stats />
